@@ -1,4 +1,5 @@
 n = int(input("n = "))
 
-for i in range(n):
-    print(i**2, end = " ")
+a = [i**2 for i in range(n)]
+
+print(a)
