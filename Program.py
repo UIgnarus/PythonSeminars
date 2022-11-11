@@ -9,10 +9,11 @@ ax**2+ bx +c =0
 
 """
 
+
+#1
 def square_root(list):
     a,b,c = list[0], list[1], list[2]
     d = b**2 - (4*a*c)
-    print(d)
     if d < 0:
         return None
     elif d == 0:
@@ -24,5 +25,11 @@ def square_root(list):
 
 abc = [int(i) for i in input().split()]
 print(square_root(abc))
+
+#2
+import numpy as np
+p = [int(i) for i in input().split()]
+roots = np.roots(p)
+print(roots)
 
     
