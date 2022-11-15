@@ -21,5 +21,6 @@ def find_win(list):
 
 
 
+
 print_pole(pole)
 print(find_win(pole))
