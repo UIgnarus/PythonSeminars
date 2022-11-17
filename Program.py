@@ -1,4 +1,4 @@
-from summa import summa
+from model import summa
 
 x = int(input())
 y = int(input())
