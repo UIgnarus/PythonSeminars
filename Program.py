@@ -8,6 +8,6 @@ for i in range(len(string) - 1):
     else:
         coded_string += str(k) + string[i]
         k = 1
-coded_string += str(k) + string[i]
+coded_string += str(k) + string[-1]
 print(coded_string)
 
