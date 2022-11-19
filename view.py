@@ -1,7 +1,7 @@
 
 
 def view_data(data):
-    print(f"result = {data}")
+    print(f"Result = {data}")
 
 
 def get_value():
