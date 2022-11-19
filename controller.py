@@ -1,8 +1,9 @@
-import controller
+import model
 import view
 def button_click():
     value_a = view.get_value()
     value_b = view.get_value()
-    controller.init(value_a, value_b)
-    result = controller.sum
+    model.init(value_a, value_b)
+    result = model.sum()
+    view.view_data(result)
     
