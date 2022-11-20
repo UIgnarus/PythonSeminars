@@ -60,7 +60,7 @@
 
 ### Лекция 3
 
-* task29 - сделать конспект
+* task29 - конспект по функциям lambda, filter, map, zip, enumerate, List Comprehension
 
 ### Лекция 4
 
