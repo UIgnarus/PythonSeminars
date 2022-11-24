@@ -1,6 +1,19 @@
 import streamlit as st
 import pandas as pd
 #streamlit run .\Program.py
+"""
+
+python3 -m venv дириктория
+
+streamlit run .\main_app.py
+
+python -m streamlit run app.py
+
+py -3.10 -m pip install streamlit
+pip install streamlit==0.62.0
+c born
+
+"""
 
 st.title("Hello")
 
