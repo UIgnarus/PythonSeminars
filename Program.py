@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+#streamlit run .\Program.py
 
 st.title("Hello")
 
