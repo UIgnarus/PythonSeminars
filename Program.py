@@ -3,7 +3,8 @@ import pandas as pd
 
 st.title("Hello")
 
-chart_data = pd.DataFrame(
-     columns=['a', 'b', 'c'])
-
-st.line_chart(chart_data)
+df = pd.DataFrame({
+  'first column': [1, 2, 3, 4],
+  'second column': [10, 20, 30, 40]
+})
+st.write(df)
